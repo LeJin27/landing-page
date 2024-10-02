@@ -1,66 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+
 
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
-
-
 .header {
     display: flex;
-    background-color: #FFFFF0;
-    margin: 0px;
-    padding: 0px;
+    background-color: #1f2937;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
     justify-content: space-between;
-    font-family: monospace;
+    color: #f9faf8;
+}
+
+.header .left-side {
+    font-size: 24px;
+    font-weight: 900;
 
 }
 
-
-
-.left-side {
+.header .right-side {
     display: flex;
-    align-items: center;
-    font-size: 40px;
-    color: goldenrod;
-    margin: 10px;
-}
-
-.left-side .icon-text {
-    margin: 10px;
-    background-color: antiquewhite;
-    border-radius: 5px 20px 5px;
-    padding: 10px;
-}
-
-
-.right-side {
-    display: flex;
-    justify-content: center;
+    list-style-type: none;
     gap: 50px;
-    align-items: center;
-    margin: 50px;
-    font-size: 25px;
-    color: goldenrod;
+    font-size: 18px;
+
 }
 
-.right-side .right-side-text {
-    background-color: antiquewhite;
-    border-radius: 5px 20px 5px;
-    padding: 10px;
+.second-header .left-side {
+
 }
 
+.second-header .right-side {
 
-.cardlist {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.card {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 20px;
-    background-color: aliceblue;
-    border-radius: 20px 20px 20px;
-    padding: 20px;
 }
