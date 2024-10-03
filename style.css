@@ -29,10 +29,33 @@ body {
 
 }
 
+.second-header {
+    display: flex;
+}
+
 .second-header .left-side {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+
 
 }
 
 .second-header .right-side {
 
+}
+
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: 0px;
+    padding: 5px;
+    border-radius: 4px;
+    color: #f9faf8;
 }
