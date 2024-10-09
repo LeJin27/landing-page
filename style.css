@@ -32,6 +32,9 @@ body {
     font-size: 18px;
 
 }
+.image-placeholder {
+    color: white;
+}
 
 .second-header {
     display: flex;
@@ -91,13 +94,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px;
 
 }
 
 .random-text {
     font-weight: 900;
     font-size: 20px;
-    margin: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -132,7 +136,9 @@ body {
 .grey-section {
     display: flex;
     flex-direction: column;
-    background-color: green;
+    background-color: #e5e7e5;
+    align-items: center;
+
 }
 
 
@@ -144,9 +150,58 @@ body {
 }
 
 .speaker-quote {
-    align-self: flex-end;
     font-weight: 500;
+    align-self: flex-end;
 
 }
+
+.grey-content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    gap: 50px;
+
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-background { 
+    margin: 60px 200px;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer-bold {
+    font-weight: bold;
+}
+
+
+.sign-up-footer {
+    background-color: #3882f6; /* Green */
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
 
 
